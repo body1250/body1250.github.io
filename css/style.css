@@ -152,7 +152,15 @@ hr {
   -webkit-line-clamp: 2; 
 }
 .view{
-  
+  width: 150px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  background: var(--main-color);
+  border-radius: 10px;
+  height: 55px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .projectButton {
