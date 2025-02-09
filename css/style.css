@@ -50,6 +50,7 @@ a:hover:not(.logo) {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -101,9 +102,7 @@ hr {
   gap: 20px 40px;
 
 }
-.con-skills >*:nth-child(n+7){
-  display: none;
-}
+
 
 @media (max-width: 992px) {
   .con-skills {
@@ -152,15 +151,15 @@ hr {
   -webkit-line-clamp: 2; 
 }
 .view{
-  width: 150px;
+text-align: center;
+padding:20px 0;
   display: block;
   width: 200px;
   margin: 0 auto;
   background: var(--main-color);
   border-radius: 10px;
-  height: 55px;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .projectButton {
