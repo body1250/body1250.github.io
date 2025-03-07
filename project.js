@@ -57,7 +57,6 @@
     con_skills.appendChild(skill)
     
 }
-console.log(32)
 makeskill('images/google-search.png','search photo',"Google Search","search by google search with the advanced search and image search",'https://body1250.github.io/google-search/')
 makeskill('images/coffee-world.png','coffe shop photo',"Coffee shop","a store sells coffee products and coffee making tools",'https://body1250.github.io/coffee-world/')
 makeskill('images/replace-text.png','text photo',"replace text","write a paragraph an search about any word or letters and know how many times it repeats",'https://body1250.github.io/replace-text/')
