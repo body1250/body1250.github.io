@@ -16,7 +16,7 @@
   </div>
 </section>; */}
 
- function makeskill(imgsource, alt, nameofproject, description, link){
+export function makeskill(imgsource, alt, nameofproject, description, link){
 
     let con_skills = document.querySelector('.con-skills')
     let skill = document.createElement("div")
