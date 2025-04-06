@@ -37,7 +37,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -95,55 +95,69 @@ hr {
   font-size: xx-large;
 }
 
-.con-skills {
+.con-projects {
   display: grid;
   grid-template-columns: repeat(3, minmax(90px, 300px));
   justify-content: center;
   gap: 20px 40px;
+  align-items: center; 
+
 
 }
 
 
 @media (max-width: 992px) {
-  .con-skills {
+  .con-projects {
     grid-template-columns: repeat(2, minmax(100px, 300px));
   }
 }
 
 @media (max-width: 768px) {
-  .con-skills {
+  .con-projects {
     grid-template-columns: repeat(1, minmax(100px, 300px));
 
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
   }
 }
 
-.con-skills .skill {
+.con-projects .project_div {
   margin: 0 25px 10px;
   min-width: 200px;
   border: 3px solid black;
   padding: 10px;
   border-radius: 10px;
-  height: 300px;
+
 }
 
-.con-skills .skill .img {
+.con-projects .project_div .img {
   width: 100%;
   height: 50%;
 }
 
-.con-skills .skill img {
+.con-projects .project_div img {
   width: 100%;
   height: 100%;
 }
 
-.con-skills .skill h3 {
+.con-projects .project_div h3 {
   font-size: 20px;
   margin: 10px 0;
 }
 
-.con-skills .skill p {
+.con-projects .con-skills{
+  display: flex;
+  color: white;
+  font-size: 15px;
+}
+.con-projects .con-skills div{
+  margin: 5px 5px 0 0;
+  padding: 1px 4px;
+  border-radius: 4px;}
+
+
+
+.con-projects .project_div p {
   font-size: 15px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -344,3 +358,12 @@ header .container ul {
   font-weight: bold;
 }
 /* end suggition */
+
+/* start projects page */
+#projectsearch{
+  width: 100%;
+  border-radius: 7px;
+  border: 2px black solid;
+  margin: 10px 0 20px;
+}
+/* end projects page */
