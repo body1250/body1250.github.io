@@ -1,0 +1,7 @@
+ {
+   "description": "My personal page and portofolio",
+   "alt": "Personal page",
+  "liveLink": "https://body1250.github.io/",
+   "skills": ["HTML", "CSS","JavaScript"],
+   "isImportant": false
+ }
